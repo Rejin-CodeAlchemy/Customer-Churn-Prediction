@@ -7,23 +7,24 @@ This project aims to predict customer churn for a business using machine learnin
 The project includes data preprocessing, exploratory data analysis (EDA), feature engineering, model training, and evaluation. The final model can be used to identify customers who are likely to churn, enabling targeted retention strategies..
 
 ### Table of Contents
-1. [Project Structure](###project-structure)
-2. [Dataset](###dataset)
-3. [Requirements](###requirements)
-4. [Installation](###installation)
-5. [Author](###author)
-6. [Submitted Date](###submitted-date)
+1. [Project Structure](#project-structure)
+2. [Dataset](#dataset)
+3. [Requirements](#requirements)
+4. [Installation](#installation)
+5. [Author](#author)
+6. [Submitted Date](#submitted-date)
 
 ### Project Structure
+```
 customer-churn-prediction/
 ├── data/ # Folder containing datasets
   ├── raw/ # Raw data files
   └── processed/ # Processed/cleaned data files
-├── notebooks/ # Jupyter notebooks for EDA and modeling
 ├── docs/ # Reports, Business objectives, Data Dictionary
+├── notebooks/ # Jupyter notebooks for EDA and modeling
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
-
+```
 ### Dataset
 The dataset used in this project contains customer information, including features such as:
 
@@ -35,7 +36,7 @@ The dataset is located in the `data/raw/` folder. For more details, refer to the
 
 ### Requirements
 To run this project, you need the following dependencies:
-- Python 3.12+
+- Python 3.12.7
 - Libraries listed in `requirements.txt`
 
 Install the dependencies using:
