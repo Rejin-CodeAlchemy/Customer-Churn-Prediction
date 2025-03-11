@@ -1,12 +1,62 @@
 # **Customer Churn Prediction**
 ## **Capstone Project**
 
-### **Business Objective**
+### Description
+This project aims to predict customer churn for a business using machine learning techniques. Customer churn refers to the phenomenon where customers stop using a company's products or services. By predicting churn, businesses can take proactive measures to retain customers and improve customer satisfaction.
 
-An E-Commerce company is facing a lot of competition in the current market and it has become a challenge to retain the existing customers in the current situation. Hence, the company wants to develop a model through which they can do churn prediction of the accounts and provide segmented offers to the potential churners. In this company, account churn is a major thing because 1 account can have multiple customers. hence by losing one account the company might be losing more than one customer. You have been assigned to develop a churn prediction model for this company and provide business recommendations on the campaign. Your campaign suggestion should be unique and be very clear on the campaign offer because your recommendation will go through the revenue assurance team. If they find that you are giving a lot of free (or subsidized) stuff thereby making a loss to the company; they are not going to approve your recommendation. Hence be very careful while providing campaign recommendation.
+The project includes data preprocessing, exploratory data analysis (EDA), feature engineering, model training, and evaluation. The final model can be used to identify customers who are likely to churn, enabling targeted retention strategies..
 
-### **Author:**
+### Table of Contents
+1. [Project Structure](###project-structure)
+2. [Dataset](###dataset)
+3. [Requirements](###requirements)
+4. [Installation](###installation)
+5. [Author](###author)
+6. [Submitted Date](###submitted-date)
+
+### Project Structure
+customer-churn-prediction/
+├── data/ # Folder containing datasets
+  ├── raw/ # Raw data files
+  └── processed/ # Processed/cleaned data files
+├── notebooks/ # Jupyter notebooks for EDA and modeling
+├── results/ # Results, visualizations, and reports
+├── requirements.txt # Python dependencies
+└── README.md # Project documentation
+
+### Dataset
+The dataset used in this project contains customer information, including features such as:
+
+- **Demographics**: AccountID, Gender, City_Tier
+- **Usage Patterns**: Tenure, Payment_mode, Coupon usage, Cashback
+- **Churn Status**: Whether the customer churned (Target variable)
+
+The dataset is located in the `data/raw/` folder. For more details, refer to the data source or data dictionary (These files are available in `docs/`).
+
+### Requirements
+To run this project, you need the following dependencies:
+- Python 3.12+
+- Libraries listed in `requirements.txt`
+
+Install the dependencies using:
+```bash
+    pip install -r requirements.txt
+```
+
+### Installation
+1. Clone the repository:
+```bash
+    git clone https://github.com/Rejin-CodeAlchemy/customer-churn-prediction.git
+    cd customer-churn-prediction
+```
+
+2. Install the required packages:
+```bash
+    pip install -r requirements.txt
+```
+
+### Author
 Rejin Raveendran
 
-### **Submitted on:**
+### Submitted Date
 Sun, Mar 03 2025
